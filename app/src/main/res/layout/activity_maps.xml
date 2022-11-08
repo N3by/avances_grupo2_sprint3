@@ -24,6 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginStart="10dp"
+            android:background="@drawable/menu_option_bg"
             android:src="@drawable/ic_menu"
             android:adjustViewBounds="true"/>
 
