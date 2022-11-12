@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Escri D/UNIVERSIDAD/4 SEMESTRE/APP parqueadero/avances_grupo2_sprint3/app/src/main/res/layout/activity_configuracion.xml" value="0.24592391304347827" />
+        <entry key="..\:/Escri D/UNIVERSIDAD/4 SEMESTRE/APP parqueadero/avances_grupo2_sprint3/app/src/main/res/drawable/background_footer.xml" value="0.27" />
+        <entry key="..\:/Escri D/UNIVERSIDAD/4 SEMESTRE/APP parqueadero/avances_grupo2_sprint3/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.27" />
+        <entry key="..\:/Escri D/UNIVERSIDAD/4 SEMESTRE/APP parqueadero/avances_grupo2_sprint3/app/src/main/res/layout/activity_configuracion.xml" value="0.33" />
         <entry key="..\:/Escri D/UNIVERSIDAD/4 SEMESTRE/APP parqueadero/avances_grupo2_sprint3/app/src/main/res/layout/activity_datos.xml" value="0.24592391304347827" />
         <entry key="..\:/Escri D/UNIVERSIDAD/4 SEMESTRE/APP parqueadero/avances_grupo2_sprint3/app/src/main/res/layout/activity_main.xml" value="0.24592391304347827" />
         <entry key="..\:/Escri D/UNIVERSIDAD/4 SEMESTRE/APP parqueadero/avances_grupo2_sprint3/app/src/main/res/layout/activity_maps.xml" value="0.24592391304347827" />

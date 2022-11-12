@@ -6,13 +6,50 @@
     android:layout_height="match_parent"
     tools:context=".Configuracion">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="configuracion"
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/TerminosTXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terminos y condiciones"
+            android:textColor="#113F67"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/loremTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula iaculis arcu, a elementum tortor tempus fringilla. Suspendisse rutrum eleifend sodales. In hac habitasse platea dictumst. Fusce ullamcorper vel purus et placerat. Pellentesque sed nulla sit amet tellus pharetra tempus. Vivamus rhoncus urna ut lectus sollicitudin pharetra. Maecenas non quam quis enim varius faucibus. In et nunc nibh.
+Nunc condimentum placerat quam eu aliquam. Morbi faucibus sapien tincidunt, maximus lorem et, facilisis odio. Ut eu urna sed purus ullamcorper tristique. Phasellus hendrerit odio vestibulum egestas convallis. Mauris non lorem venenatis, tempor eros nec, feugiat ex. Integer elementum nibh sed tempus viverra. Sed ante ante, ultricies ac justo gravida, feugiat varius risus. In varius purus eu sem convallis, sit amet commodo lectus mollis. Nam tempor aliquet consectetur. Sed non neque ligula."
+            android:textSize="15dp" />
+
+        <Switch
+            android:id="@+id/dark_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:minHeight="48dp"
+            android:text="Activar modo oscuro"
+            android:textSize="17dp"
+            android:textColor="#113F67"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:foregroundGravity="bottom"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="20dp"
+        android:background="@drawable/background_footer"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
