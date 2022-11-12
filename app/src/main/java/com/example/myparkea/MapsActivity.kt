@@ -61,6 +61,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+
         binding = ActivityMapsBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -116,6 +117,8 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
         mapFragment.getMapAsync(this)
 
         fusedLocation = LocationServices.getFusedLocationProviderClient(this)
+
+
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
@@ -264,7 +267,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
     }
 
     private fun openConfiguration() {
-
+        startActivity(Intent(this,Configuracion::class.java))
     }
 
     private fun logout() {
